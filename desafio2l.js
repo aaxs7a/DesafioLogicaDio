@@ -1,6 +1,6 @@
 // 1. Variáveis de entrada
 let nomeHeroi = "Thor";
-let xpHeroi = 7500;
+let xpHeroi = 11000;
 let nivel = "Radiante"; // Valor padrão caso não caia em nenhuma regra
 
 // 2. Organizando as faixas em um Vetor de Objetos (Estruturalmente limpo)
@@ -11,7 +11,8 @@ const faixas = [
     { limite: 7000, nome: "Ouro" },
     { limite: 8000, nome: "Platina" },
     { limite: 9000, nome: "Ascendente" },
-    { limite: 10000, nome: "Imortal" }
+    { limite: 10000, nome: "Imortal" },
+    { limite: 10001, nome: "Radiante"}
 ];
 
 // 3. Substituindo o else if por um Laço de Repetição (for)
